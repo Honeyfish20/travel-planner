@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*_token
+*credentials*
+*accessKeys*
+
+# Runtime data: family profiles contain children's ages and allergy information
+memory/
+
+# Exports / OS / editor
+expenses.csv
+*.log
+.DS_Store
+.idea/
+.vscode/
